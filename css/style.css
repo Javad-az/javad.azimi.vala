@@ -306,6 +306,7 @@
     color: #4dd2e8;
 }
 .sort-box-vd{
+    margin-bottom: 40px;
    background-color: white;
    border-radius: 20px;
    
@@ -329,6 +330,8 @@
     margin-bottom: 10px;
 }
 .box-image1{
+    width: 350px;
+    height: 200px;
     margin-top:10px ;
 }
 @media screen and (max-width:768px){
@@ -339,4 +342,24 @@
 .sort-box-vd:hover .sort-button-vd{
     color: #4dd2e8;
     margin-left: 20px;
+}
+@media screen and (max-width:500px){
+    .banners-vd img{
+        margin-top: 30px;
+        width: 450px;
+    }
+}
+
+.special-box-vd{
+    display: flex;
+    background-color: #4dd2e8;
+    width: 300px;
+    height: 300px;
+}
+.countdown-vd{
+    width: 300x;
+    height: 200px;
+}
+.countdown-vd img{
+    background-color: #4dd2e8;
 }
